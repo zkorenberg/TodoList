@@ -42,6 +42,7 @@ int main(int argc, char** argv) {
             for(int i=0; i<list.size(); i++){
                 cout << i << ":\t" << list[i] << endl;
             }
+            return 0;
         }else{
             string task; // empty
             for(int i=1; i<argc; i++){ // 1 argument is file
